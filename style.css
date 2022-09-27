@@ -1,0 +1,21 @@
+#header{
+    position:fixed;
+    top:1vh;
+    display:block;
+}
+
+#header div{
+    display:inline;
+}
+
+div#icon{
+    float:left;
+}
+
+form{
+    display:inline;
+}
+
+input#search{
+    text-align: center;
+}
