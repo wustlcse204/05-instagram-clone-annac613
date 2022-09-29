@@ -1,7 +1,14 @@
+body{
+    background-color: rgb(227, 227, 227);
+}
+
 #header{
     position:fixed;
-    top:1vh;
+    top:0;
+    left:0;
     display:block;
+    width:100%;
+    background-color: white;
 }
 
 #header div{
@@ -13,7 +20,7 @@ div#icon{
     width:5vw;
     border-right:2px solid lightgray;
     margin:2vw;
-    padding-left: 1vw;
+    padding-left: 2vw;
 }
 
 div#icon img{
@@ -35,21 +42,28 @@ div#logo img{
 
 form{
     float:left;
-    width:40vw;
+    width:30vw;
     margin:2vw;
     margin-left:auto;
-    padding-left:15vw;
-    margin-top:2.5vw;
+    padding-left:18vw;
+    margin-top:3vw;
 }
 
 input#search{
     text-align: center;
     border:1px solid lightgray;
     border-radius: 3px;
-    background-color:#fafafa;
+    background: url("images/magnifying.png") no-repeat #f4f4f4;
+    background-size: 1vw;
+    background-position: 3.5vw 0.8vh;
+    height: 3.5vh;
+    width: 13vw;
+    background-blend-mode: darken;
 }
 
-div#icons{
-    
+div#icons img{
+    padding-top:1vw;
+    margin:1vw;
 }
+
 
