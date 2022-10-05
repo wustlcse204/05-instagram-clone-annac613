@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(238, 238, 238);
 }
 
 #header{
@@ -22,7 +22,7 @@ div#icon{
     width:5vw;
     border-right:2px solid lightgray;
     margin:2vw;
-    padding-left: 2vw;
+    padding-left: 3vw;
     margin-bottom:0;
 }
 
@@ -80,25 +80,25 @@ div#icons img{
 }
 
 .post-column {
-    width: 50%;
+    width: 59%;
     float: left;
-    border:1px solid black;
+    /*border:1px solid black;*/
+    margin-top:17vh;
 }
 
 .stories-column {
-    width: 40%;
+    width: 30%;
     float: left;
-    border:1px solid black;
-}
-
-section#posts{
-    margin-top:20vh;
-    width:50%;
-    margin-left:5vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*border:1px solid black;*/
+    margin-top:17vh;
+    margin-left:4vw;
+    margin-right:4vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 div.post{
+    margin-left:5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border:2px solid rgb(218, 218, 218);
     border-top:none;
     border-radius:5px;
@@ -119,17 +119,16 @@ div.postheader{
 }
 
 div.postheader img{
-    height:10%;
-    width:10%;
+    height:8%;
+    width:8%;
 }
 
 span.username{
     height:auto;
     position:relative;
-    bottom:3vh;
+    bottom:4vh;
     padding:0.5vw;
     font-weight:bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 div.postbar{
@@ -157,7 +156,7 @@ span.post_text a{
 
 span.time{
     font-weight:lighter;
-    color:lightgray;
+    color:lightslategray;
     font-size:small;
 }
 
@@ -175,4 +174,61 @@ div.comments i{
     color:lightslategray;
 }
 
+div#stories-header{
+    border-bottom:2px solid rgb(218, 218, 218);
+    width:auto;
+    padding:1vw;
+}
 
+#stories img{
+    height:10%;
+    width:10%;
+}
+
+span#zag_name{
+    position:relative;
+    right:8.75vw;
+    bottom:1vh;
+    color:lightslategray;
+}
+
+span#stories-title{
+    color:lightslategray;
+}
+
+span#watch{
+    position:relative;
+    left:20vw;
+}
+
+span.stories-top{
+    font-weight: bold;
+    position:relative;
+    top:2vh;
+}
+
+div#stories-body{
+    margin-top:4vh;
+}
+
+div.stories-user{
+    margin-bottom: 2vh;
+}
+
+div.border-wrap{
+    display:inline;
+    border-radius:100%;
+    background: rgb(188,0,205);
+    background: linear-gradient(90deg, rgba(188,0,205,1) 0%, rgba(215,37,146,1) 35%, rgba(255,213,0,1) 100%);
+}
+
+div.stories-user span.username{
+    display:inline-block;
+    width:25%;
+}
+
+div.stories-user span.time{
+    position:relative;
+    right:8vw;
+    bottom:1vh;
+}
