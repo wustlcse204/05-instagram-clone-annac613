@@ -74,9 +74,26 @@ div#icons img{
     height:2vw;
 }
 
+.container {
+    width:100%;
+    overflow:auto;
+}
+
+.post-column {
+    width: 50%;
+    float: left;
+    border:1px solid black;
+}
+
+.stories-column {
+    width: 40%;
+    float: left;
+    border:1px solid black;
+}
+
 section#posts{
     margin-top:20vh;
-    width:50vw;
+    width:50%;
     margin-left:5vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -102,8 +119,8 @@ div.postheader{
 }
 
 div.postheader img{
-    height:50px;
-    width:50px;
+    height:10%;
+    width:10%;
 }
 
 span.username{
@@ -122,8 +139,7 @@ div.postbar{
 }
 
 span.bookmark{
-    position:relative;
-    left:39vw;
+    float:right;
 }
 
 div.postbar i{
@@ -133,6 +149,10 @@ div.postbar i{
 
 span.post_text{
     font-weight:normal;
+}
+
+span.post_text a{
+    text-decoration: none;
 }
 
 span.time{
@@ -151,7 +171,8 @@ div.comments{
 }
 
 div.comments i{
-    position:relative;
-    left:38vw;
+    float:right;
     color:lightslategray;
 }
+
+
