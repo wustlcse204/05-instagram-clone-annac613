@@ -82,14 +82,12 @@ div#icons img{
 .post-column {
     width: 59%;
     float: left;
-    /*border:1px solid black;*/
     margin-top:17vh;
 }
 
 .stories-column {
     width: 30%;
     float: left;
-    /*border:1px solid black;*/
     margin-top:17vh;
     margin-left:4vw;
     margin-right:4vw;
@@ -180,9 +178,9 @@ div#stories-header{
     padding:1vw;
 }
 
-#stories img{
-    height:10%;
-    width:10%;
+div#stories-header img{
+    height:12%;
+    width:12%;
 }
 
 span#zag_name{
@@ -202,33 +200,79 @@ span#watch{
 }
 
 span.stories-top{
-    font-weight: bold;
+    font-weight:bold;
     position:relative;
     top:2vh;
 }
 
 div#stories-body{
     margin-top:4vh;
+    overflow:scroll;
+    height:40vh;
+}
+
+div#stories-body::-webkit-scrollbar{
+    display:none;
 }
 
 div.stories-user{
-    margin-bottom: 2vh;
+    display:inline;
+    position:relative;
 }
 
 div.border-wrap{
-    display:inline;
-    border-radius:100%;
-    background: rgb(188,0,205);
+    position:relative;
+    width:3.5vw;
+    height:3.5vw;
+    border-radius:50%;
     background: linear-gradient(90deg, rgba(188,0,205,1) 0%, rgba(215,37,146,1) 35%, rgba(255,213,0,1) 100%);
+    margin-bottom:2vh;
+}
+
+div.border-wrap img{
+    position:absolute;
+    height:3.2vw;
+    width:3.2vw;
+    left:0.15vw;
+    top:0.15vw;
 }
 
 div.stories-user span.username{
     display:inline-block;
+    position:absolute;
     width:25%;
+    left:4vw;
+    top:0.5vh;
 }
 
 div.stories-user span.time{
-    position:relative;
-    right:8vw;
-    bottom:1vh;
+    position:absolute;
+    left:4.5vw;
+    bottom:0.5vh;
+}
+
+div#stories-links{
+    color:rgb(194, 193, 193);
+    font-size:small;
+    width:17vw;
+}
+
+div#stories-links a{
+    text-decoration: none;
+}
+
+div#stories-links a:link{
+    color:rgb(194, 193, 193);
+}
+
+div#stories-links a:hover{
+    color:rgb(194, 193, 193);
+}
+
+div#stories-links a:visited{
+    color:rgb(194, 193, 193);
+}
+
+div#stories-links a:active{
+    color:rgb(194, 193, 193);
 }
