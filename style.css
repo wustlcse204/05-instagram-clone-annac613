@@ -2,6 +2,15 @@ body{
     background-color: rgb(238, 238, 238);
 }
 
+html, body {
+    position: absolute;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+}
+
 #header{
     position:fixed;
     top:0;
@@ -305,12 +314,12 @@ div#suggestions-text a{
 }
 
 .suggestion{
-    width: 25%;
+    width: 27%;
     float: left;
     border:2px solid rgb(218, 218, 218);
     margin-left:1.5rem;
-    padding:0.5vw;
     padding-top:1rem;
+    padding-bottom:1rem;
 }
 
 div#suggestion-container{
@@ -380,10 +389,66 @@ span#follow-nyx{
 }
 */
 
+div.suggestion-content{
+    margin:auto;
+    width:fit-content;
+    text-align: center;
+}
+
+div.suggestion-img{
+    margin:auto;
+    width:fit-content;
+    text-align: center;
+    margin-bottom:0.75rem;
+}
+
+div.suggestion-btn{
+    margin:auto;
+    width:fit-content;
+    text-align: center;
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+}
+
+div.suggestion-x{
+    margin-right:1rem;
+}
+
+/*
 span#next{
     position:relative;
     top:17vh;
     right:1vw;
     color:lightslategray;
     font-size:large;
+}*/
+
+div#next-suggestion{
+    color:lightslategray;
+    font-size:larger;
+    text-align:center;
+    height:fit-content;
+    width:fit-content;
+    float:left;
+    margin-top:12%;
+}
+
+@media only screen and (max-width: 900px) {
+    div#stories-header{
+        display:none;
+    }
+    div#stories-body{
+        display:none;
+    }
+    div.stories-tops{
+        display:none;
+    }
+    div#stories-links{
+        display:none;
+    }
+    .post-column{
+        width:80%;
+        padding-left:7%;
+        padding-right:10%;
+    }
 }
